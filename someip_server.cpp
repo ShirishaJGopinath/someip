@@ -42,7 +42,7 @@ int main() {
       string mssg=read_(socket_);
 
       someip newsomeip;
-      //loading data in newEmp with binary archive.
+      //loading data in newsomeip with binary archive.
       newsomeip.load(mssg);
       newsomeip.showData();
 
